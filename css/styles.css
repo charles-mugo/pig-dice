@@ -1,0 +1,49 @@
+.btn-group button {
+    background-color: #4CAF50;
+    border: 1px solid green;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    float: left;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+}
+
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 500px;
+    width: 800px;
+
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+
+    font-family: 'Joti One';
+    border-radius: 15px 50px 30px;
+    background: #73AD21 ;
+    background: rgba(76, 175, 80, 0.8);
+    padding: 20px;
+    width: 500px;
+    height: 150px;
+}
+body {
+  background-color: green;
+}
