@@ -10,3 +10,6 @@ if(dice1 === 1 || dice2 ===1)
 alert(score = "0")
 }else if () {
   alert("You rolled a "+dice1+" and a "+dice2+" for a score of "+score)};*/
+//Business logic
+var player1="";
+var player2="";

@@ -10,6 +10,10 @@
     <title>Pig Dice Game</title>
 </head>
 <body>
+  <div class="top">
+  <div class="container">
+    <img src="http://graphiccave.com/wp-content/uploads/2015/06/Happy-Pig-Illustration-Free-Vector-File-Transparent-PNG-Graphic-Cave.png" alt="pig image" align="middle" width=100% height=100%>
+    <div class="centered">Pig Dice</div></div>
   <div class="start-menu">
   <div class="jumbotron">
   <h4>Pig Dice Game</h4>
@@ -29,8 +33,22 @@
   <button id="start" class="btn-info btn">Start</button>
 </div>
 </div>
-  <div class="container"><img src="http://graphiccave.com/wp-content/uploads/2015/06/Happy-Pig-Illustration-Free-Vector-File-Transparent-PNG-Graphic-Cave.png" alt="pig image" align="middle" width=100% height=100%>
-   <div class="centered">Pig Dice</div></div>
+
+    <div class="p1 container">
+        <button id="new-game" class="btn-success btn">NEW GAME</button>
+        <div class = "row">
+          <div class="col-md-6">
+            <h3>Player 1: <span id = "p1Name"><span></h2>
+            <p>Round Total: <span id="round-ttl"></span></p>
+            <p>Total Score: <span id="round-ttl"></span></p>
+          </div>
+          <div class = "row">
+            <div class="col-md-6">
+              <h3>Player 2: <span id = "p2Name"><span></h2>
+              <p>Round Total: <span id="round-ttl"></span></p>
+              <p>Total Score: <span id="round-ttl"></span></p>
+            </div>
+
   <div class="row" id="players">
   <div id="player1">
 
@@ -40,8 +58,8 @@
   <div class="row"
 
   <div class="btn-group">
-    <button>Roll Dice</button>
-    <button>Hold Dice</button>
+    <button id="p1-roll" class="button-success btn">Roll Dice</button>
+    <button id="p1-hold" class="button-success btn">Hold Dice</button>
 
   </div>
   <h2 id="play" style="clear:left"></h2>
