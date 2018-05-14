@@ -1,6 +1,5 @@
 # _Pig Dice_
 
-#### _This application will take a number from a user and return a range of numbers from 1 to the chosen number with certain exceptions_
 
 #### By
 
